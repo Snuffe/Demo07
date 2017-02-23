@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="TuntTeht2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuntTeht2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Width="800"
+    Height="600">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="10,10,0,0" Grid.Column="0">
+            <TextBlock Text="Employee basic information:"/>
+            <!--Name-->
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Name:" Width="100"/>
+                <TextBox x:Name="nameTextBox" Width="250"/>
+            </StackPanel>
+            <!--Email-->
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Email:" Width="100"/>
+                <TextBox x:Name="emailTextBox" Width="250"/>
+            </StackPanel>
+            <!--password-->
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Password:" Width="100"/>
+                <PasswordBox x:Name="passwordBox" Width="250"/>
+            </StackPanel>
+            <TextBlock Text="User Level:"/>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="normalUserCheckBox"
+                          Content="Normal user"
+                          IsChecked="True"/>
+                <CheckBox x:Name="adminCheckBox"
+                          Content="Admin"/>
+            </StackPanel>
+            <Button x:Name="saveButton" Content="Save"
+                    Click="saveButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="10,10,0,0">
+            <TextBlock Text="Image"/>
+            <Image Source="Assets/employee01.png"
+                   Height="100" Width="70"
+                   HorizontalAlignment="Left"/>
+            <Button Content="Browse"/>
+            
+        </StackPanel>
+    </Grid>
+
+</Page>

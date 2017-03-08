@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{64c6d7aa-3d92-4371-803e-b3c8ada85e54}</ProjectGuid>
+    <ProjectGuid>{a7454e05-ef16-47d7-ae93-8e1b2803abd8}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Lottokone</RootNamespace>

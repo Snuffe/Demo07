@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>a69e80f0-943e-40d6-b867-203cca58029e</PackageIdentityName>
+    <PackageIdentityName>64c17eed-0922-48e5-a0fd-dbfbcc79692a</PackageIdentityName>
     <PackageIdentityPublisher>CN=K1493</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>

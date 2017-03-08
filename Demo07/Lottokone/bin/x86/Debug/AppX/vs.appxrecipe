@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>a69e80f0-943e-40d6-b867-203cca58029e</PackageIdentityName>
+    <PackageIdentityName>64c17eed-0922-48e5-a0fd-dbfbcc79692a</PackageIdentityName>
     <PackageIdentityPublisher>CN=K1493</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
@@ -16,10 +16,10 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>8A4C7C9DE44759FE223C71897EED2DE3DA69323905AB66D59EF2DEA242228AEF</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>a69e80f0-943e-40d6-b867-203cca58029e_1.0.0.0_x86__vjq08e37bczbr</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>a69e80f0-943e-40d6-b867-203cca58029e_vjq08e37bczbr!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>a69e80f0-943e-40d6-b867-203cca58029e</RegisteredPackageID>
+    <RegisteredManifestChecksum>E8497529F799C40D903F0C804815136D58F59E888E94A12FC3FEFC03A6BE7F94</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>64c17eed-0922-48e5-a0fd-dbfbcc79692a_1.0.0.0_x86__vjq08e37bczbr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>64c17eed-0922-48e5-a0fd-dbfbcc79692a_vjq08e37bczbr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>64c17eed-0922-48e5-a0fd-dbfbcc79692a</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=K1493</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-08T10:41:49.761</Modified>
+      <Modified>2017-03-08T11:43:59.854</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\bin\x86\Debug\Lottokone.exe">
       <PackagePath>entrypoint\Lottokone.exe</PackagePath>
-      <Modified>2017-03-08T10:41:48.799</Modified>
+      <Modified>2017-03-08T11:43:59.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\K1493\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -450,7 +450,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-03-08T10:27:27.502</Modified>
+      <Modified>2017-03-08T11:19:34.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -488,7 +488,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\bin\x86\Debug\Lottokone.xr.xml">
       <PackagePath>Lottokone.xr.xml</PackagePath>
-      <Modified>2017-03-08T10:41:48.660</Modified>
+      <Modified>2017-03-08T11:31:11.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -496,11 +496,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-03-08T10:41:49.492</Modified>
+      <Modified>2017-03-08T11:43:59.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\bin\x86\Debug\Core\Lottokone.exe">
       <PackagePath>Lottokone.exe</PackagePath>
-      <Modified>2017-03-08T10:41:49.755</Modified>
+      <Modified>2017-03-08T11:43:59.850</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

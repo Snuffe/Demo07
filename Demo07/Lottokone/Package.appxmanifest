@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="a69e80f0-943e-40d6-b867-203cca58029e"
+    Name="64c17eed-0922-48e5-a0fd-dbfbcc79692a"
     Publisher="CN=K1493"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="a69e80f0-943e-40d6-b867-203cca58029e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="64c17eed-0922-48e5-a0fd-dbfbcc79692a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Lottokone</DisplayName>

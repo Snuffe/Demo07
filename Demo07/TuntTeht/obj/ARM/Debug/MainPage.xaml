@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="TuntTeht.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TuntTeht"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0"
+                   Grid.Row="0"
+                   Text="1st col 1st row"/>
+        <TextBlock Grid.Column="0"
+                   Grid.Row="1"
+                   Text="1st col 2nd row"/>
+        <TextBlock Grid.Column="0"
+                   Grid.Row="2"
+                   Text="1st col 3rd row"/>
+        
+        <TextBlock Grid.Column="1"
+                   Grid.Row="0"
+                   Text="2nd col 1st row"/>
+        <TextBlock Grid.Column="1"
+                   Grid.Row="1"
+                   Text="2nd col 2nd row"/>
+        <TextBlock Grid.Column="1"
+                   Grid.Row="2"
+                   Text="2nd col 3rd row"/>
+
+    </Grid>
+</Page>
+

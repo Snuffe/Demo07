@@ -8,12 +8,48 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="120,120,0,0" TextWrapping="Wrap" Text="Number of draws: " VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="120,220,0,0" TextWrapping="Wrap" Text="Random numbers: " VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="296,108,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <Button x:Name="drawButton" Content="Draw" HorizontalAlignment="Left" Margin="120,166,0,0" VerticalAlignment="Top" Click="drawButton_Click"/>
-        <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="250,166,0,0" VerticalAlignment="Top" Click="clearButton_Click"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="120,300,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="388" Width="247"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="392" Margin="44,303,0,0" VerticalAlignment="Top" Width="268">
+            <TextBlock Name="DrawsTextBlock" FontSize="20" Height="Auto" Width="Auto" Margin="10,10,0,0"/>
+        </ScrollViewer>
+
+        <StackPanel Height="257" Margin="44,18,613,0" VerticalAlignment="Top">
+            <Button x:Name="Draw" 
+                FontSize="25" 
+                Content="Draw" 
+                Height="50" Width="100" 
+                Margin="10,10,10,10"
+                Click="Draw_Click"/>
+            <Button x:Name="Clear"
+                Content="Clear"
+                FontSize="25"
+                Margin="10,10,10,10"
+                Height="50" 
+                Width="100" 
+                Click="Clear_Click"/>
+            <TextBox x:Name="Amount" 
+                 TextWrapping="Wrap" 
+                 PlaceholderText="Amount" 
+                 FontSize="25"
+                 VerticalAlignment="Top" Height="49" Width="119"/>
+            <TextBlock x:Name="Draws" 
+                 HorizontalAlignment="Left"
+                 FontSize="25"
+                 Margin="10,-45,0,10"
+                 TextWrapping="NoWrap" 
+                 Text="Number of draws: " 
+                 VerticalAlignment="Top" 
+                 Height="42" 
+                 Width="213"/>
+            <TextBlock x:Name="textBlock1" 
+                 HorizontalAlignment="Left"
+                 FontSize="25"
+                 Margin="10,20,10,10"
+                 TextWrapping="Wrap" 
+                 Text="Random numbers: " 
+                 VerticalAlignment="Top"/>
+        </StackPanel>
 
     </Grid>
+
+
 </Page>

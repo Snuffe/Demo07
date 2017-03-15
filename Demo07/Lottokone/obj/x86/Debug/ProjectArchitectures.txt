@@ -1,1 +1,1 @@
-D:\K1493\Source\Repos\Demo07\Demo07\Lottokone\Lottokone.csproj;x86
+C:\Users\Käyttäjä\Source\Repos\Demo07\Demo07\Lottokone\Lottokone.csproj;x86
